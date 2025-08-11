@@ -2,104 +2,85 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Wangari's Portfolio</title>
-  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="wangari margaret – Software Developer portfolio showcasing skills, experience, and projects." />
+  <meta name="keywords" content="Software Developer, wangari margaret, HTML, CSS, Accessibility, SEO" />
+  <meta name="author" content="wangari margaret" />
+  <title>wangari margaret| Software Developer</title>
 </head>
 <body>
-  <header>
-    <div class="header-left">
-      <img src="images/profile.jpg" alt="Logo" class="logo-img" />
-      <div class="logo-text">Wangari's Portfolio</div>
-    </div>
-    <nav>
+  <header role="banner">
+    <h1>wangari margaret</h1>
+    <nav aria-label="Main navigation">
       <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#summary">Summary</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
         <li><a href="#contact">Contact</a></li>
-        <li><a href="Margaret's CV/Margaret's CV.docx" download>Download CV</a></li>
       </ul>
     </nav>
   </header>
 
-  <section id="hero">
-    <div class="hero-content">
-      <h1>Hello, I'm Margaret</h1>
-      <p>A passionate tech girl, software developer, and web designer.</p>
-      <a href="#portfolio" class="cta-button">See My Work</a>
-    </div>
-  </section>
+  <main role="main">
+    <section id="summary" aria-labelledby="summary-heading">
+      <h2 id="summary-heading">Professional Summary</h2>
+      <p>
+        Innovative and results-driven software developer based in Nairobi, Kenya. Skilled in Python, JavaScript, and web development frameworks. Passionate about building efficient, secure, and user-friendly applications.
+      </p>
+    </section>
 
-  <section id="about">
-    <h2>About Me</h2>
-    <div class="about-content">
-      <img src="images/profile pic.jpg" alt="Wangari's Profile Picture" />
-      <p>I am Wangari, a passionate tech girl with a love for coding and design.</p>
-    </div>
-  </section>
+    <section id="experience" aria-labelledby="experience-heading">
+      <h2 id="experience-heading">Professional Experience</h2>
 
-  <section id="portfolio">
-    <h2>Portfolio</h2>
-    <div class="portfolio-grid">
-      <div class="portfolio-item">
-        <img src="images/web development.jpg" width="800" height="500" alt="website development">
-        <div class="layer">
-          <h3>web design</h3>
-          <p>Designing user-friendly websites with a focus on aesthetics and functionality.</p>
-        </div>
-      </div>
-      <div class="portfolio-item">
-        <img src="images/computer packages.jpg" width="800" height="500" alt="computer packages">
-        <div class="layer">
-          <h3>computer packages</h3>
-          <p>basic computer skills like MS Office, email etiquette, and internet browsing.</p>
-        </div>
-      </div>
-      <div class="portfolio-item">
-        <img src="images/data analysis2.png" width="800" height="500" alt="Data analysis">
-        <div class="layer">
-          <h3>Data analysis</h3>
-          <p>Doing data analysis to uncover insights and drive decisions.</p>
-        </div>
-      </div>
-    </div>
-  </section>
+      <article>
+        <h3>Software Developer – Tech Innovations LLC (2020–Present)</h3>
+        <ul>
+          <li>Created RESTful APIs using Django and Flask</li>
+          <li>Designed React.js interfaces to enhance engagement</li>
+          <li>Optimized SQL queries and reduced bottlenecks</li>
+        </ul>
+      </article>
 
-  <section id="contact">
-    <h2>Contact Me</h2>
-    <div class="contact-form">
-      <form id="contactForm">
-        <div class="form-group">
-          <label for="name">Name:</label>
-          <input type="text" id="name" name="name" required>
-        </div>
-        <div class="form-group">
-          <label for="email">Email:</label>
-          <input type="email" id="email" name="email" required>
-        </div>
-        <div class="form-group">
-          <label for="message">Message:</label>
-          <textarea id="message" name="message" rows="5" required></textarea>
-        </div>
-        <button type="submit" class="submit-button">Send Message</button>
-        <div id="loading-indicator"><i class="fas fa-spinner fa-spin"></i> Sending message...</div>
-        <div id="form-response" aria-live="polite"></div>
-      </form>
-    </div>
-  </section>
+      <article>
+        <h3>Junior Coder – NextGen Solutions (2018–2020)</h3>
+        <ul>
+          <li>Built scalable e-commerce features</li>
+          <li>Assisted debugging and code optimization</li>
+          <li>Worked on third-party integrations securely</li>
+        </ul>
+      </article>
+    </section>
 
-  <footer>
-    <div class="social-icons">
-      <a href="https://www.linkedin.com/in/margaret-wangari-3aa93232a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fab fa-linkedin"></i></a>
-      <a href="https://github.com/wangarimargaret" target="_blank"><i class="fab fa-github"></i></a>
-    
-    </div>
-    <p>TEL: +254 794362559</p>
-    <p>Email: <a href="mailto:Wangariwmargaret@gmail.com">Wangariwmargaret@gmail.com</a></p>
-    <p>&copy; 2025 Wangari. All rights reserved.</p>
-    <p>Designed by Margaret with ❤️</p>
+    <section id="skills" aria-labelledby="skills-heading">
+      <h2 id="skills-heading">Technical Skills</h2>
+      <ul>
+        <li><strong>Languages:</strong> Python, Java, C++, JavaScript, SQL</li>
+        <li><strong>Web Dev:</strong> HTML5, CSS3, React.js, Node.js</li>
+        <li><strong>Cloud:</strong> AWS, Azure</li>
+        <li><strong>DevOps:</strong> Docker, Jenkins, Kubernetes</li>
+        <li><strong>Version Control:</strong> Git, GitHub</li>
+      </ul>
+    </section>
 
+    <section id="projects" aria-labelledby="projects-heading">
+      <h2 id="projects-heading">Key Projects</h2>
+      <ul>
+        <li><strong>Real-Time Chat App:</strong> Enabled live messaging with Socket.io</li>
+        <li><strong>E-Commerce Redesign:</strong> Integrated payments and improved navigation</li>
+        <li><strong>Employee Management System:</strong> Reduced admin workload by 35%</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer role="contentinfo" id="contact" aria-labelledby="contact-heading">
+    <h2 id="contact-heading">Contact</h2>
+    <address>
+      <p>Email: <a href="mailto:wangariwmargaret@gmail.com">wangariwmargaret@gmail.com</a></p>
+      <p>Phone: <a href="tel:‪+254794362559‬">‪+254 794362559‬</a></p>
+      <p>Location: Nairobi, Kenya</p>
+    </address>
+    <p>&copy; 2025 wangari margaret</p>
   </footer>
-
 </body>
 </html>
